@@ -51,15 +51,15 @@ public class main_Cls {
 		obj.setState("TestState", txt_State);
 		obj.setPostalCode("PC001", txt_postal_code);
 		obj.setCountry("AUSTRALIA", txt_country);
-		//Thread.sleep(100);
+		// Thread.sleep(100);
 		takeSnapShot(driver, "resources//test.png");
-		
+
 		Thread.sleep(1000);
-		 obj.clickRegister(btn);
-		 Thread.sleep(100);
-		 takeSnapShot(driver, "c://test1.png"); 
-         Thread.sleep(100);
-         driver.quit();
+		obj.clickRegister(btn);
+		Thread.sleep(100);
+		takeSnapShot(driver, "c://test1.png");
+		Thread.sleep(100);
+		driver.quit();
 	}
 
 	// Scroll down the webpage by 5000 pixels
